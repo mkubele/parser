@@ -28,7 +28,6 @@ def parser():
         elif arg == '-i':
             cont = sys.argv[3]
             cont = cont.split(',')
-
             with open(file, 'r') as fl:
                 for line in fl:
                     if all(value in line for value in cont):
@@ -50,5 +49,5 @@ def parser():
         else:
             sys.exit('unknown argument')
     else:
-            sys.exit('not a txt file')
+        sys.exit('not a txt file')
 parser()
