@@ -5,6 +5,7 @@ file = sys.argv[1]
 arg = sys.argv[2]
 cont = None
 
+
 def parser():
     if file.lower().endswith('.txt'):
 
