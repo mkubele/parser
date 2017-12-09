@@ -7,6 +7,7 @@ cont = None
 
 def parser():
     if file.lower().endswith('.txt'):
+
         if arg == '-s':
             start = None
             end = None
